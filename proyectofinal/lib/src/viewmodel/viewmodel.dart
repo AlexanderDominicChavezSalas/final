@@ -23,19 +23,19 @@ class ViewModel extends ChangeNotifier {
   }
 
   navigateToHumidityPage() {
-    _navigationService.navigate(const Humiditypage());
+    _navigationService.navigate(const HumidityPage());
   }
 
   navigateToLPGPage() {
-    _navigationService.navigate(const Lpgpage());
+    _navigationService.navigate(const LpgPage());
   }
 
   navigateToSmokePage() {
-    _navigationService.navigate(const Smokepage());
+    _navigationService.navigate(const SmokePage());
   }
 
   navigateToTempPage() {
-    _navigationService.navigate(const Temppage());
+    _navigationService.navigate(const TempPage());
   }
 
   navigateToProfilePage() {
